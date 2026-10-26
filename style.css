@@ -1,8 +1,9 @@
 :root {
     --bg-color: black;
     --bg-button-nav-color: purple;
+    --nav-button-hover-color: white;
     --color-nav-button: rgba(255, 255, 255, 0.733);
-    --box-shadow-nav-menu: 0px 0px 20px 5px purple;
+    --box-shadow-nav-menu: 0px 0px 20px 5px purple, 0px 0px 20px 5px rgb(109, 27, 58);
     --box-shadow-nav-strelka: 0px 0px 20px 5px purple;
 }
 
@@ -15,6 +16,7 @@
 
 body {
     background: var(--bg-color);
+    height: 150vh;
 }
 
 nav {
@@ -38,6 +40,11 @@ nav button {
     color: var(--color-nav-button);
     border: none;
     font-weight: 200;
+    transition: all 0.8s;
+}
+
+nav button:hover {
+    color: var(--nav-button-hover-color);
 }
 
 nav p {
@@ -63,8 +70,16 @@ nav p:hover {
     box-shadow: var(--box-shadow-nav-menu);
     position: relative;
     bottom: 0;
+    position: sticky;
+    top: 0;
 }
 
 .active-strelka {
     opacity: 0;
+}
+
+.active-html {
+    color: white;
+    text-decoration: underline rgb(255, 255, 255);
+    text-underline-offset: 7px;
 }
