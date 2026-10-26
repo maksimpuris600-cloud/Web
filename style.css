@@ -24,6 +24,7 @@ nav {
     height: 70px;
     position: relative;
     bottom: 80px;
+    transition: all 0.8s;
 }
 
 nav button {
@@ -61,5 +62,9 @@ nav p:hover {
 .active-nav-menu {
     box-shadow: var(--box-shadow-nav-menu);
     position: relative;
-    top: 0px;
+    bottom: 0;
+}
+
+.active-strelka {
+    opacity: 0;
 }
