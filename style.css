@@ -1,0 +1,65 @@
+:root {
+    --bg-color: black;
+    --bg-button-nav-color: purple;
+    --color-nav-button: rgba(255, 255, 255, 0.733);
+    --box-shadow-nav-menu: 0px 0px 20px 5px purple;
+    --box-shadow-nav-strelka: 0px 0px 20px 5px purple;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+    height: 70px;
+    position: relative;
+    bottom: 80px;
+}
+
+nav button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: var(--bg-button-nav-color);
+    color: var(--color-nav-button);
+    border: none;
+    font-weight: 200;
+}
+
+nav p {
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    background-color: aliceblue;
+    width: 50px;
+    height: 45px;
+    border-radius: 25px;
+    text-align: center;
+    transition: all .8s;
+}
+
+nav p:hover {
+    box-shadow: var(--box-shadow-nav-strelka);
+    background-color: blueviolet;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.active-nav-menu {
+    box-shadow: var(--box-shadow-nav-menu);
+    position: relative;
+    top: 0px;
+}
