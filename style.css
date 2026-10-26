@@ -1,16 +1,21 @@
 :root {
     --bg-color: black;
-    --bg-button-nav-color: purple;
+    --bg-button-nav-color: red;
     --nav-button-hover-color: white;
-    --color-nav-button: rgba(255, 255, 255, 0.733);
-    --box-shadow-nav-menu: 0px 0px 20px 5px purple, 0px 0px 20px 5px rgb(109, 27, 58);
+    --color-nav-button: white;
+    --box-shadow-nav-menu: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
     --box-shadow-nav-strelka: 0px 0px 20px 5px purple;
-    --nav-button-hover-box-shadow: 0px 0px 20px 5px purple, 0px 0px 20px 5px rgb(109, 27, 58);
+    --nav-button-hover-box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
 }
 
 @font-face {
     font-family: 'Dota 2';
     src: url('fonts/Pragmaticashadowc\ italic.otf');
+}
+
+@font-face {
+    font-family: 'Dota';
+    src: url('fonts/Gokure\ Japan\ Demo.ttf');
 }
 
 
@@ -24,6 +29,7 @@ body {
     background: var(--bg-color);
     height: 150vh;
     color: white;
+    overflow-x: hidden;
 }
 
 .img {
@@ -41,6 +47,8 @@ nav {
     position: relative;
     bottom: 80px;
     transition: all 0.8s;
+    backdrop-filter: blur(20px);
+    z-index: 111;
 }
 
 nav button {
@@ -111,10 +119,55 @@ h1 {
     text-align: center;
     font-size: 40px;
     font-style: italic;
-    color: brown;
+    color: red;
 }
 
 ::selection{
-    background: purple;
+    background: red;
     color: black;
+}
+
+.about {
+    background: rgba(255, 255, 255, 0.048);
+    color: white;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 300px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    border: 2px solid red;
+    box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
+}
+
+.about h2 {
+    font-family: 'Dota';
+    font-size: 30px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+} 
+
+.pudj {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    border-radius: 50px;
+    transition: all .8s;
+    animation: pudj 2s infinite alternate;
+}
+
+@keyframes pudj {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
