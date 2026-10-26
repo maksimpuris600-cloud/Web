@@ -115,4 +115,6 @@ h1 {
 }
 
 ::selection{
-    background: linear-gradient(200deg,purple,black,purple);
+    background: purple;
+    color: black;
+}
