@@ -113,3 +113,6 @@ h1 {
     font-style: italic;
     color: brown;
 }
+
+::selection{
+    background: linear-gradient(200deg,purple,black,purple);
