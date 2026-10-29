@@ -1,0 +1,267 @@
+:root {
+    --bg-color: black;
+    --bg-button-nav-color: blue;
+    --nav-button-hover-color: white;
+    --color-nav-button: white;
+    --box-shadow-nav-menu: 0px 0px 20px 5px blue, 0px 0px 20px 5px rgb(109, 27, 58);
+    --box-shadow-nav-strelka: 0px 0px 20px 5px blue;
+    --nav-button-hover-box-shadow: 0px 0px 20px 5px blue, 0px 0px 20px 5px rgb(109, 27, 58);
+    --header-div-box-shadow: 0px 0px 20px 5px blue;
+}
+
+::selection {
+    background: skyblue;
+}
+
+
+body {
+    color: blue;
+}
+
+h1 {
+    color: blue;
+}
+
+nav p:hover {
+    background: blue;
+    transform: scale(1.03);
+    transition: all .8s;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0;
+    color: blue;
+}
+
+header button {
+    background: rgba(255, 255, 255, 0.048);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    border: 2px solid blue;
+    box-shadow: var(--header-div-box-shadow);
+    margin-left: 20px;
+    transition: all .8s;
+}
+
+header button:hover {
+    box-shadow: var(--header-div-box-shadow);
+    transform: scale(1.03);
+    background: linear-gradient(to right, blue, skyblue);
+    cursor: pointer;
+}
+
+.card-sila {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+    position: relative;
+    bottom: 2000px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.048);
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    color: white;
+    font-size: 20px;
+    transition: all 0.6s;
+}
+
+.cards:hover {
+    box-shadow: var(--nav-button-hover-box-shadow);
+    transform: scale(1.04);
+}
+
+div.alchemist {
+    background: url("/Characters/Alchemist.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.axe {
+    background: url("/Characters/axe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.bristal {
+    background: url("/Characters/bristleback.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.centavr {
+    background: url("/Characters/Centaur_Warrunner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.active-card-sila {
+    position: relative;
+    bottom: 0;
+    transition: all 1s;
+}
+
+.active-btn {
+    text-decoration: underline skyblue;
+    text-underline-offset: 5px;
+}
+
+
+.card-lovkost {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+    position: absolute;
+    position: relative;
+    bottom: 2305px;
+}
+
+.active-card-lovkost {
+    position: relative;
+    bottom: 305px;
+    transition: all 1s;
+}
+
+
+div.am {
+    background: url("/Characters/am.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.sniper {
+    background: url("/Characters/Sniper.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.bloodseeker {
+    background: url("/Characters/bloodseeker.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.luna {
+    background: url("/Characters/luna.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-intelekt {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+    position: absolute;
+    position: relative;
+    bottom: 2305px;
+}
+
+.active-card-intelekt {
+    position: relative;
+    bottom: 605px;
+    transition: all 1s;
+}
+
+div.invoker {
+    background: url("/Characters/invoker.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.lina {
+    background: url("/Characters/lina.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+div.lion {
+    background: url("/Characters/lion.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.puck {
+    background: url("/Characters/puck.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+
+.card-unik {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+    position: absolute;
+    position: relative;
+    bottom: 2305px;
+}
+
+.active-card-unik {
+    position: relative;
+    bottom: 905px;
+    transition: all 1s;
+}
+
+div.venomancer {
+    background: url("/Characters/venomancer.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+div.visage {
+    background: url("/Characters/visage.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+div.abaddon {
+    background: url("/Characters/abaddon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+div.tech {
+    background: url("/Characters/techies.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}

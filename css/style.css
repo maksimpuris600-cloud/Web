@@ -4,7 +4,7 @@
     --nav-button-hover-color: white;
     --color-nav-button: white;
     --box-shadow-nav-menu: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
-    --box-shadow-nav-strelka: 0px 0px 20px 5px purple;
+    --box-shadow-nav-strelka: 0px 0px 20px 5px red;
     --nav-button-hover-box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
 }
 
@@ -36,7 +36,7 @@ body {
     width: 70px;
     height: 70px;
     position: relative;
-    right: 580px;
+    right: 690px;
 }
 
 nav {
@@ -86,7 +86,7 @@ nav p {
 
 nav p:hover {
     box-shadow: var(--box-shadow-nav-strelka);
-    background-color: blueviolet;
+    background-color: red;
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -138,18 +138,25 @@ h1 {
     backdrop-filter: blur(4px);
     border: 2px solid red;
     box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
+    transition: all 0.8s;
+}
+
+.about:hover {
+    box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
+    transform: scale(1.03);
 }
 
 .about h2 {
     font-family: 'Dota';
     font-size: 30px;
     text-align: center;
+    margin: 20px 0;
 }
 
 .about p {
     font-size: 17px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.7;
 } 
 
 .creators {
@@ -165,6 +172,12 @@ h1 {
     backdrop-filter: blur(4px);
     border: 2px solid red;
     box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
+    transition: all 0.8s;
+}
+
+.creators:hover {
+    box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
+    transform: scale(1.03);
 }
 
 
@@ -195,6 +208,12 @@ h1 {
     position: relative;
     left: 770px;
     bottom: 630px;
+    transition: all 0.8s;
+}
+
+.game-mods:hover {
+    box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
+    transform: scale(1.03);
 }
 
 .game-mods h2 {
@@ -237,8 +256,10 @@ h1 {
     left: 1540px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 5px red, 0px 0px 20px 5px rgb(109, 27, 58);
+    transition: all 0.8s;
 }
 
 .zxc img:hover {
     cursor: pointer;
+    transform: scale(1.03);
 }
