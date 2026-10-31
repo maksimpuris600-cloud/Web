@@ -1,0 +1,54 @@
+body {
+    height: auto;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.items-intro {
+    margin: 15px 0 30px;
+    color: white;
+    text-align: center;
+}
+
+.items-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item-card {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background: #171717;
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 0 0 12px #8b0000;
+    transition: all .5s;
+}
+
+.item-card:hover {
+    transform: scale(1.03);
+}
+
+.item-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.item-card h2 {
+    margin: 15px 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.item-card p {
+    color: #ccc;
+    height: 1.5;
+}
