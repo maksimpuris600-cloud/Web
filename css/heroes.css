@@ -93,28 +93,28 @@ header button:hover {
 }
 
 div.alchemist {
-    background: url("/Characters/Alchemist.png");
+    background: url("../Characters/Alchemist.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.axe {
-    background: url("/Characters/axe.png");
+    background: url("../Characters/axe.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.bristal {
-    background: url("/Characters/bristleback.png");
+    background: url("../Characters/bristleback.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.centavr {
-    background: url("/Characters/Centaur_Warrunner.png");
+    background: url("../Characters/Centaur_Warrunner.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -150,28 +150,28 @@ div.centavr {
 
 
 div.am {
-    background: url("/Characters/am.jpg");
+    background: url("../Characters/am.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.sniper {
-    background: url("/Characters/Sniper.webp");
+    background: url("../Characters/Sniper.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.bloodseeker {
-    background: url("/Characters/bloodseeker.png");
+    background: url("../Characters/bloodseeker.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.luna {
-    background: url("/Characters/luna.png");
+    background: url("../Characters/luna.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -194,28 +194,28 @@ div.luna {
 }
 
 div.invoker {
-    background: url("/Characters/invoker.png");
+    background: url("../Characters/invoker.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.lina {
-    background: url("/Characters/lina.png");
+    background: url("../Characters/lina.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
 }
 
 div.lion {
-    background: url("/Characters/lion.png");
+    background: url("../Characters/lion.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.puck {
-    background: url("/Characters/puck.png");
+    background: url("../Characters/puck.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -239,28 +239,28 @@ div.puck {
 }
 
 div.venomancer {
-    background: url("/Characters/venomancer.png");
+    background: url("../Characters/venomancer.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
 }
 
 div.visage {
-    background: url("/Characters/visage.png");
+    background: url("../Characters/visage.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
 }
 
 div.abaddon {
-    background: url("/Characters/abaddon.png");
+    background: url("../Characters/abaddon.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
 }
 
 div.tech {
-    background: url("/Characters/techies.png");
+    background: url("../Characters/techies.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
